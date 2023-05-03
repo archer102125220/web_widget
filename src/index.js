@@ -10,3 +10,9 @@ class test {
 }
 
 new test().log();
+
+function bootstrap() {
+  const a = new test();
+  console.log(a.a);
+  console.log(a?.log);
+}
