@@ -1,0 +1,15 @@
+{
+  "name": "bbn_frontend",
+  "scripts": {
+    "build": "babel src -d ./public/build",
+    "server": "yarn http-server ./public",
+    "dev": "yarn build && yarn server"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.21.5",
+    "@babel/core": "^7.21.8",
+    "@babel/node": "^7.20.7",
+    "@babel/preset-env": "^7.21.5",
+    "http-server": "^14.1.1"
+  }
+}
