@@ -1,5 +1,5 @@
 {
-  "name": "bbn_frontend",
+  "name": "web_widget",
   "scripts": {
     "build": "babel src -d ./public/build",
     "server": "yarn http-server ./public",
