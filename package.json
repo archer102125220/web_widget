@@ -1,5 +1,6 @@
 {
   "name": "web_widget",
+  "license": "MIT",
   "scripts": {
     "build": "babel src -d ./public/build",
     "server": "yarn http-server ./public",
